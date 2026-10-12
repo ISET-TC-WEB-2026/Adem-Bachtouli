@@ -1,5 +1,4 @@
 
-/* Style general */
 * {
     box-sizing: border-box;
 }
@@ -12,7 +11,7 @@ body {
     line-height: 1.6;
 }
 
-/* En-tete */
+
 header {
     background-color: #fffdf8;
     padding: 12px 7%;
@@ -42,7 +41,7 @@ nav a:hover {
     color: #a77b42;
 }
 
-/* Accueil */
+
 .accueil {
     display: flex;
     align-items: center;
@@ -82,7 +81,7 @@ nav a:hover {
     box-shadow: 0 12px 30px #263b2d25;
 }
 
-/* Boutons */
+
 .bouton {
     display: inline-block;
     background-color: #315c3b;
@@ -100,7 +99,7 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
-/* Categories et produits */
+
 .categories,
 .produits {
     padding: 50px 7%;
@@ -165,7 +164,7 @@ nav a:hover {
     margin: 12px 0;
 }
 
-/* Pied de page */
+
 footer {
     background-color: #243c2c;
     color: #f8f5e9;
@@ -184,7 +183,6 @@ footer p {
     font-size: 14px;
 }
 
-/* Responsive */
 @media (max-width: 700px) {
     header {
         flex-direction: column;
