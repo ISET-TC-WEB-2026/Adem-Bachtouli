@@ -11,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-
 header {
     background-color: #fffdf8;
     padding: 12px 7%;
@@ -40,7 +39,6 @@ nav a {
 nav a:hover {
     color: #a77b42;
 }
-
 
 .accueil {
     display: flex;
@@ -73,14 +71,13 @@ nav a:hover {
     flex: 1;
 }
 
-.image-accueil img {
-    width: 100%;
+    .image-accueil img {
+        width: 100%;
     height: 380px;
     object-fit: cover;
     border-radius: 18px;
     box-shadow: 0 12px 30px #263b2d25;
 }
-
 
 .bouton {
     display: inline-block;
@@ -98,7 +95,6 @@ nav a:hover {
     background-color: #a77b42;
     transform: translateY(-3px);
 }
-
 
 .categories,
 .produits {
@@ -126,7 +122,7 @@ nav a:hover {
     background-color: #fffdf8;
     border-radius: 12px;
     padding: 15px;
-    box-shadow: 0 4px 15px #263b2d12;
+    box-shadow: 0 4px 15px #02d64912;
     transition: 0.3s;
 }
 
@@ -164,7 +160,6 @@ nav a:hover {
     margin: 12px 0;
 }
 
-
 footer {
     background-color: #243c2c;
     color: #f8f5e9;
@@ -182,4 +177,200 @@ footer p {
     color: #d4ddcf;
     font-size: 14px;
 }
+
+
+.catalogue-intro {
+    text-align: center;
+    padding: 45px 20px 20px;
+}
+
+.catalogue-intro h2 {
+    color: #284c32;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.catalogue-intro p {
+    color: #74796f;
+}
+
+.recherche {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 7% 30px;
+}
+
+.recherche input,
+.recherche select {
+    padding: 12px;
+    border: 1px solid #d5ddcf;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.recherche input {
+    width: 300px;
+    max-width: 100%;
+}
+
+.recherche select {
+    max-width: 100%;
+}
+
+
+button.bouton {
+    border: none;
+    cursor: pointer;
+}
+
+.panier-vide {
+    max-width: 600px;
+    margin: 20px auto 60px;
+    padding: 40px 25px;
+    text-align: center;
+    background-color: #fffdf8;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #263b2d12;
+}
+
+.icone-panier {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.panier-vide h3 {
+    color: #315c3b;
+    font-size: 25px;
+}
+
+.panier-vide > p {
+    color: #74796f;
+}
+
+.panier-vide .nombre-achats {
+    color: #a77b42;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.total-vide {
+    margin-top: 35px;
+    padding: 20px;
+    text-align: left;
+    background-color: #f3f0e4;
+    border-radius: 10px;
+}
+
+.total-vide p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-vide .total {
+    color: #315c3b;
+    font-size: 20px;
+    font-weight: bold;
+}
+.panier-intro{
+    text-align: center;
+}
+
+
+.commande-intro {
+    text-align: center;
+    padding: 45px 20px 20px;
+}
+
+.commande-intro h2 {
+    color: #284c32;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.commande-intro p {
+    color: #74796f;
+}
+
+.formulaire-commande {
+    max-width: 750px;
+    margin: 20px auto 60px;
+    padding: 35px;
+    background-color: #fffdf8;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #263b2d12;
+}
+
+.formulaire-commande h3 {
+    color: #315c3b;
+    margin: 25px 0 15px;
+}
+
+.champ {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.groupe-champs {
+    display: flex;
+    gap: 20px;
+}
+
+.groupe-champs .champ {
+    flex: 1;
+}
+
+.champ label {
+    margin-bottom: 7px;
+    color: #263b2d;
+    font-weight: bold;
+}
+
+.champ input,
+.champ textarea,
+.champ select {
+    padding: 12px;
+    border: 1px solid #d5ddcf;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.champ input:focus,
+.champ textarea:focus,
+.champ select:focus {
+    outline: 2px solid #8ba98b;
+}
+
+
+.resume-commande {
+    background-color: #f3f0e4;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.resume-commande p {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.resume-commande .prix-final {
+    color: #315c3b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.formulaire-commande button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 

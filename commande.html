@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeaHouse - Commander</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍃 TeaHouse</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="panier.html">Panier</a>
+            <a href="commande.html">Commander</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="commande-intro">
+            <h2>Finaliser ma commande</h2>
+            <p>Remplissez le formulaire pour recevoir vos produits.</p>
+        </section>
+
+        <section class="formulaire-commande">
+
+            <form action="#" method="post">
+
+                <h3>Informations personnelles</h3>
+
+                <div class="groupe-champs">
+                    <div class="champ">
+                        <label for="nom">Nom</label>
+                        <input type="text" id="nom" name="nom"
+                               placeholder="Votre nom" required>
+                    </div>
+
+                    <div class="champ">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" name="prenom"
+                               placeholder="Votre prénom" required>
+                    </div>
+                </div>
+
+                <div class="champ">
+                    <label for="email">Adresse e-mail</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="exemple@email.com" required>
+                </div>
+
+                <div class="champ">
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone"
+                           placeholder="Votre numéro de téléphone" required>
+                </div>
+
+                <h3>Adresse de livraison</h3>
+
+                <div class="champ">
+                    <label for="adresse">Adresse complète</label>
+                    <textarea id="adresse" name="adresse"
+                              placeholder="Votre adresse de livraison"
+                              rows="3" required></textarea>
+                </div>
+
+                <div class="champ">
+                    <label for="ville">Ville</label>
+                    <input type="text" id="ville" name="ville"
+                           placeholder="Votre ville" required>
+                </div>
+
+                <h3>Mode de livraison</h3>
+
+                <div class="champ">
+                    <select id="livraison" name="livraison" required>
+                        <option value="">Choisir un mode de livraison</option>
+                        <option value="domicile">Livraison à domicile (7 DT)</option>
+                        <option value="point-relais">Point de vente (0 DT)</option>
+                    </select>
+                </div>
+
+                <h3>Mode de paiement</h3>
+
+                <div class="champ">
+                    <select id="paiement" name="paiement" required>
+                        <option value="">Choisir un mode de paiement</option>
+                        <option value="livraison">Paiement à la livraison</option>
+                        <option value="carte">Carte bancaire (simulation)</option>
+                    </select>
+                </div>
+
+                <div class="resume-commande">
+                    <h3>Résumé de la commande</h3>
+                    <p>Nombre d'achats : <strong>0</strong></p>
+                    <p>Sous-total : <strong>0 DT</strong></p>
+                    <p>Livraison : <strong>0 DT</strong></p>
+                    <hr>
+                    <p class="prix-final">Total : 0 DT</p>
+                </div>
+
+                <button type="submit" class="bouton">
+                    Confirmer ma commande
+                </button>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <h3>🍃 TeaHouse</h3>
+        <p>Votre moment de douceur, une tasse à la fois.</p>
+        <p>&copy; 2026 TeaHouse - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
